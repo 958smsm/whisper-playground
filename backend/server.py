@@ -1,5 +1,5 @@
 from faster_whisper import WhisperModel
-from diart import OnlineSpeakerDiarization
+from diart import SpeakerDiarization
 from aiohttp import web
 import socketio
 from client_manager import ClientManager
